@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aishwarya R | AI/ML Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background: #111827;
+            position: sticky;
+            top: 0;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 8px;
+            font-size: 14px;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .hero span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 22px;
+            background: #38bdf8;
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-bottom: 20px;
+        }
+
+        .skills, .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 22px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+        }
+
+        .card h3 {
+            color: #7dd3fc;
+            margin-bottom: 10px;
+        }
+
+        .card a {
+            color: #38bdf8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #111827;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Aishwarya R</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Hi, I'm <span>Aishwarya R</span></h1>
+    <p>AI/ML Student | Aspiring AI Software Engineer</p>
+    <p>B.E. CSE (Artificial Intelligence & Machine Learning)</p>
+    <a class="button" href="#projects">View My Projects</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a 2nd year B.E. CSE (AI & ML) student at AVS Engineering College.
+        I am passionate about Artificial Intelligence, Machine Learning,
+        Software Development and building practical AI solutions.
+        My goal is to become an AI Software Engineer.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <div class="card">Python</div>
+        <div class="card">C</div>
+        <div class="card">C++</div>
+        <div class="card">Java</div>
+        <div class="card">SQL</div>
+        <div class="card">HTML & CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">AI & ML</div>
+        <div class="card">Prompt Engineering</div>
+        <div class="card">Git & GitHub</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <h3>AI Smart Queue Prediction</h3>
+            <p>
+                AI-based system to predict waiting time and help users
+                choose a suitable time for public services.
+            </p>
+            <p><b>Tech:</b> Python, ML, SQL</p>
+        </div>
+
+        <div class="card">
+            <h3>AI Career Guidance System</h3>
+            <p>
+                AI-based platform that provides career and course
+                recommendations for students.
+            </p>
+            <p><b>Tech:</b> Python, AI, Database</p>
+        </div>
+
+        <div class="card">
+            <h3>AI Document Assistant</h3>
+            <p>
+                AI assistant designed to answer questions from documents
+                using LLM and Retrieval-Augmented Generation.
+            </p>
+            <p><b>Tech:</b> LLM, RAG, Embeddings</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="certificates">
+    <h2>Certificates & Activities</h2>
+
+    <div class="card">
+        <p>• Python Course</p>
+        <p>• C Programming Course</p>
+        <p>• Java Programming</p>
+        <p>• AI & Prompt Engineering Activities</p>
+        <p>• Hackathon Participation</p>
+        <p>• Symposium & PPT Presentation</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <div class="card">
+        <p><b>Name:</b> Aishwarya R</p>
+        <p><b>Domain:</b> CSE – AI & ML</p>
+        <p><b>Career Goal:</b> AI Software Engineer</p>
+        <p><b>GitHub:</b> Add your GitHub link here</p>
+        <p><b>LinkedIn:</b> Add your LinkedIn link here</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Aishwarya R | AI/ML Portfolio</p>
+</footer>
+
+</body>
+</html>
